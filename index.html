@@ -1,0 +1,32 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>جدول الشيخة نورة</title><meta name="theme-color" content="#dcefff">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="الشيخة نورة">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="hero">
+ <div class="title">جدول الشيخة نورة <span class="heart">🩵</span></div>
+ <div id="greet" class="greet"></div>
+ <div class="clock" id="clock">--:--</div><div class="date" id="date"></div>
+</header>
+<section class="row">
+ <div class="card mini" id="weather"><div class="lbl">☁️ طقس الرياض</div><div class="big" id="wTemp">—</div><div class="sub" id="wDesc"></div></div>
+ <div class="card mini" id="prayer"><div class="lbl">🕌 الصلاة القادمة</div><div class="big" id="pName">—</div><div class="sub" id="pCount"></div></div>
+</section>
+<section class="card"><h2>📅 اليوم</h2><ul class="timeline" id="today"></ul></section>
+<section class="card msg"><h2>💌 رسالة من أبو خالد</h2><p id="msg" class="msgtxt"></p></section>
+<section class="card"><h2>👗 إطلالة اليوم</h2><div id="outfit" class="outfit"></div></section>
+<section class="card"><h2>🏃‍♀️ رياضتي</h2><div id="workout" class="workout"></div></section>
+<section class="card"><h2>🧴 بيوتي وعناية</h2><ul id="beauty" class="tasks"></ul><div class="sub" id="beautyP"></div></section>
+<section class="card trip"><h2>✈️ رحلة أسبن</h2><div id="trip"></div></section>
+<section class="card"><h2>🛍️ ترند الفاشن</h2><div class="sub" id="fWeek"></div><ul id="fashion" class="fash"></ul></section>
+<section class="card"><h2>💎 قائمة أمنياتي</h2><form id="wishForm" class="wf"><input id="wName" placeholder="اسم القطعة" required><input id="wLink" placeholder="الرابط (اختياري)" type="url"><input id="wPrice" placeholder="السعر المستهدف" inputmode="decimal"><button>＋</button></form><ul id="wish" class="wish"></ul></section>
+<section class="card"><h2>✅ مهامي</h2><form id="taskForm"><input id="taskIn" placeholder="أضيفي مهمة…" autocomplete="off"><button>＋</button></form><ul id="tasks" class="tasks"></ul></section>
+<section class="card"><h2>🗓️ القادم</h2><ul id="upcoming" class="up"></ul></section>
+<section class="card glance"><h2>✨ نظرة سريعة</h2><div id="glance" class="gl"></div></section>
+<div class="ilink"><a href="install.html">📲 طريقة إضافة التطبيق للجوال</a></div>
+<footer>فصفص <span class="heart">🩵</span></footer>
+<a id="fab" class="fab" target="_blank" rel="noopener">💬 اطلبي من فصفص</a>
+<script src="config.js"></script><script src="app.js"></script><script src="extras.js"></script></body></html>
