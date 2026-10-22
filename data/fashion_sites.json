@@ -1,0 +1,35 @@
+{
+ "note": "قائمة مبدئية — بنعدّلها على المواقع اللي تحبينها 💙",
+ "sites": [
+  {
+   "icon": "📰",
+   "name": "Vogue Arabia",
+   "desc": "آخر الصيحات والإطلالات",
+   "url": "https://en.vogue.me"
+  },
+  {
+   "icon": "🛍️",
+   "name": "Net-a-Porter",
+   "desc": "ماركات فاخرة وتنسيقات",
+   "url": "https://www.net-a-porter.com"
+  },
+  {
+   "icon": "✨",
+   "name": "Farfetch",
+   "desc": "بوتيكات عالمية بمكان واحد",
+   "url": "https://www.farfetch.com"
+  },
+  {
+   "icon": "💎",
+   "name": "Ounass",
+   "desc": "فخامة بتوصيل سريع للسعودية",
+   "url": "https://www.ounass.sa"
+  },
+  {
+   "icon": "👗",
+   "name": "Namshi",
+   "desc": "موضة يومية وعروض",
+   "url": "https://www.namshi.com"
+  }
+ ]
+}
