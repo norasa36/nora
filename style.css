@@ -17,7 +17,6 @@ footer{text-align:center;font-family:'Aref Ruqaa',serif;font-size:24px;color:var
 .empty{opacity:.6;font-size:14px;padding:6px 0}
 html,body{overflow-x:hidden}.row>*,.timeline li>span:last-child,.up li>span:last-child{min-width:0;overflow-wrap:anywhere}img{max-width:100%}
 form input{min-width:0}form button{flex:none}
-.msgtxt{font-size:18px;line-height:1.9;color:var(--navy);text-align:center;margin:4px 0}
 .outfit{display:flex;gap:12px;align-items:center}.oic{font-size:40px;background:var(--bg2);border-radius:18px;padding:10px 12px;flex:none}.outfit b{color:var(--navy);font-size:17px}.outfit p{margin:4px 0 0;font-size:14px;line-height:1.8}
 .workout{display:flex;align-items:center;gap:14px}.ring{width:76px;height:76px;border-radius:50%;display:grid;place-items:center;font-size:24px;font-weight:700;color:var(--navy);flex:none}
 .tasks li label{display:flex;gap:8px;align-items:center;width:100%}.tasks input[type=checkbox]{accent-color:var(--navy);width:18px;height:18px}

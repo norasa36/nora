@@ -9,7 +9,6 @@ $('greet').insertAdjacentHTML('afterend',`<div class="sub">مزاج اليوم: 
 $('fab').href=`https://wa.me/${C.whatsappNumber}?text=${encodeURIComponent(C.whatsappText||'')}`;
 const J=(u,k)=>getJSON(u,k);
 // رسالة
-J('data/messages.json','msgs').then(m=>{if(m)$('msg').textContent=m[dayIdx%m.length]});
 // رياضتي
 J('data/appointments.json','appts').then(a=>{if(!a)return;const d=new Date(today+'T12:00:00Z');d.setUTCDate(d.getUTCDate()-d.getUTCDay());const k=d.toISOString().slice(0,10);
  const c=(a.workouts_by_week||{})[k]||0,goal=4,pct=Math.min(100,c/goal*100);
