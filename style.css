@@ -48,3 +48,13 @@ body{padding-bottom:calc(env(safe-area-inset-bottom) + 80px)}
 .fn-btn[aria-expanded="true"]{background:var(--sky);color:#fff;font-weight:700}
 .fn-ans{margin-top:8px;padding:8px 10px;border-radius:12px;background:#e3f2ff;color:var(--navy);font-weight:700}.fn-ans[hidden]{display:none}
 #fun .upd{font-size:12px;color:#7d9bb5;margin:-2px 0 4px}
+/* wedding weather */
+#wedWx .wx-week{display:inline-block;border:1px solid var(--sky);color:var(--navy);background:var(--bg1);border-radius:14px;padding:2px 12px;font-size:12px;margin-bottom:8px}
+#wedWx .wx-sum{list-style:none;margin:0;padding:0}#wedWx .wx-sum li{line-height:1.9;font-size:14px;padding:4px 0;border-bottom:1px solid #eef5fc}#wedWx .wx-sum li:last-child{border:0}
+#wedWx .wx-sum li:before{content:"🩵 ";font-size:.8em}
+#wedWx .wx-cds{display:flex;gap:8px;margin:10px 0}#wedWx .wx-cd{flex:1;background:var(--bg1);border:1px solid #cfe4f7;border-radius:14px;padding:8px;text-align:center}
+#wedWx .wx-cd b{display:block;font-size:26px;color:var(--navy)}#wedWx .wx-cd span{font-size:11px;line-height:1.5}
+#wedWx .wx-imgs{display:flex;gap:8px}#wedWx .wx-im{flex:1;min-width:0;display:block;text-align:center}#wedWx .wx-im img{width:100%;height:auto;border-radius:12px;border:1px solid #cfe4f7;display:block}
+#wedWx .wx-im{text-decoration:none}#wedWx .wx-im span{font-size:11px;color:var(--navy)}#wedWx .wx-src{font-size:11px;margin-top:10px;opacity:.85}#wedWx .wx-upd{font-size:11px;opacity:.7}
+.wx-ov{position:fixed;inset:0;background:rgba(11,79,138,.93);z-index:99;overflow:auto;-webkit-overflow-scrolling:touch}.wx-ov img{width:100%;height:auto;display:block}
+.wx-x{position:fixed;top:calc(env(safe-area-inset-top) + 10px);left:12px;z-index:100;border:0;border-radius:50%;width:38px;height:38px;font-size:18px;background:#7cc4f5;color:#fff}
