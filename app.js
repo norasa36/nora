@@ -37,4 +37,4 @@ async function load(){const a=await getJSON('data/appointments.json?'+Date.now()
  if(w&&w.current){const[i,t]=WMO(w.current.weather_code);$('wTemp').textContent=`${i} ${Math.round(w.current.temperature_2m)}°`;$('wDesc').textContent=`${t} • ${Math.round(w.daily.temperature_2m_min[0])}°–${Math.round(w.daily.temperature_2m_max[0])}°`}}
 drawT();load();setInterval(tick,1000);setInterval(render,60000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});
-if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+
