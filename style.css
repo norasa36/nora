@@ -58,3 +58,4 @@ body{padding-bottom:calc(env(safe-area-inset-bottom) + 80px)}
 #wedWx .wx-im{text-decoration:none}#wedWx .wx-im span{font-size:11px;color:var(--navy)}#wedWx .wx-src{font-size:11px;margin-top:10px;opacity:.85}#wedWx .wx-upd{font-size:11px;opacity:.7}
 .wx-ov{position:fixed;inset:0;background:rgba(11,79,138,.93);z-index:99;overflow:auto;-webkit-overflow-scrolling:touch}.wx-ov img{width:100%;height:auto;display:block}
 .wx-x{position:fixed;top:calc(env(safe-area-inset-top) + 10px);left:12px;z-index:100;border:0;border-radius:50%;width:38px;height:38px;font-size:18px;background:#7cc4f5;color:#fff}
+#wedWx .wx-pend{font-size:12px;color:var(--navy);background:var(--bg1);border:1px dashed var(--sky);border-radius:12px;padding:6px 10px;margin-top:8px;text-align:center}
