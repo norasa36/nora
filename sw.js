@@ -1,5 +1,5 @@
 // nora-hq service worker. Network-first, never trusts the HTTP cache. Cache is offline fallback only.
-const V='20261023-020111',C='nora-hq-'+V,ASSETS=['./','index.html','install.html','config.js','extras.js','v5.js','note.js','fun.js','weather.js','data/weather_report.json','img/weather/a.png','img/weather/b.png','data/adhkar.json','data/fashion_sites.json','data/honeymoon.json','data/outfits.json','data/fashion.json','data/messages.json','data/beauty.json','style.css','app.js','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/apple-touch-icon.png'];
+const V='20261023-024832',C='nora-hq-'+V,ASSETS=['./','index.html','install.html','config.js','extras.js','v5.js','note.js','fun.js','weather.js','french.js','french.css','data/french.json','data/weather_report.json','img/weather/a.png','img/weather/b.png','data/adhkar.json','data/fashion_sites.json','data/honeymoon.json','data/outfits.json','data/fashion.json','data/messages.json','data/beauty.json','style.css','app.js','manifest.webmanifest','icons/icon-192.png','icons/icon-512.png','icons/apple-touch-icon.png'];
 self.addEventListener('install',e=>{self.skipWaiting();
  e.waitUntil(caches.open(C).then(c=>Promise.all(ASSETS.map(u=>fetch(u,{cache:'no-store'}).then(r=>r.ok?c.put(u,r):0).catch(()=>0)))))});
 self.addEventListener('activate',e=>{e.waitUntil((async()=>{

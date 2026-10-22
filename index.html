@@ -5,8 +5,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="الشيخة نورة">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"><script>
-window.APP_VERSION='20261023-020111';
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="french.css"><script>
+window.APP_VERSION='20261023-024832';
 (function(){
 var V=window.APP_VERSION,ss=window.sessionStorage,sw=navigator.serviceWorker;
 function reset(){var p=[];
@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded',function(){var v=document.getElemen
 <section class="card" id="wedWx"><h2>🌤️ طقس ليلة الزفاف · الدرعية</h2><div class="na">…</div></section>
 <section class="card"><h2>🗓️ القادم</h2><ul id="upcoming" class="up"></ul></section>
 <section class="card" id="fun"></section>
+<section class="card" id="french"><h2>🇫🇷 دروس الفرنسي</h2><div class="na">…</div></section>
 <section class="card glance"><h2>✨ نظرة سريعة</h2><div id="glance" class="gl"></div></section>
 <div class="ilink"><a href="install.html">📲 طريقة إضافة التطبيق للجوال</a></div>
 <footer>فصفص <span class="heart">🩵</span><div style="font:11px/1.8 -apple-system,system-ui,sans-serif;opacity:.85;margin-top:8px;direction:rtl"><span id="appVer"></span> · <button id="refreshBtn" type="button" style="font:inherit;color:inherit;background:none;border:1px solid currentColor;border-radius:12px;padding:3px 10px;cursor:pointer">🔄 تحديث الصفحة</button></div></footer>
@@ -68,4 +69,4 @@ document.addEventListener('DOMContentLoaded',function(){var v=document.getElemen
 </section>
 <script>document.getElementById('askBtn').onclick=function(){var t=document.getElementById('askText').value.trim();if(!t)return;location.href='https://wa.me/966590900178?text='+encodeURIComponent('طلب من ست الكل لصفحتها: '+t);};</script>
 <script src="fun.js"></script><script src="weather.js"></script>
-<script src="note.js"></script></body></html>
+<script src="note.js"></script><script>window.FR_CFG={theme:'n',intro:'درس صغير كل يوم، تتعلمينه أنتِ وأبو خالد مع بعض 🩵',finish:'🩵 أحسنتِ! خلصتي درس اليوم',foot:'تقدمك محفوظ في هذا الجهاز 🩵'};</script><script src="french.js"></script></body></html>
