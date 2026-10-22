@@ -6,7 +6,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="الشيخة نورة">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css"><script>
-window.APP_VERSION='20261023-0107';
+window.APP_VERSION='20261023-015401';
 (function(){
 var V=window.APP_VERSION,ss=window.sessionStorage,sw=navigator.serviceWorker;
 function reset(){var p=[];
@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded',function(){var v=document.getElemen
 <section class="card" id="risk"><h2>🌿 مهامي وراحة بالي</h2><div class="sub">كل مهمة: وش ممكن يصير؟ ووش الخطة البديلة؟</div><ul id="rlog" class="rlog"></ul><a id="rlBtn" class="cta" target="_blank" rel="noopener">💬 رتبيها مع فصفص</a></section>
 <section class="card" id="goodnews"><h2>🇸🇦 أخبار حلوة من السعودية</h2><ul id="news" class="news"></ul><div class="sub" id="newsNote"></div></section>
 <section class="card"><h2>🗓️ القادم</h2><ul id="upcoming" class="up"></ul></section>
+<section class="card" id="fun"></section>
 <section class="card glance"><h2>✨ نظرة سريعة</h2><div id="glance" class="gl"></div></section>
 <div class="ilink"><a href="install.html">📲 طريقة إضافة التطبيق للجوال</a></div>
 <footer>فصفص <span class="heart">🩵</span><div style="font:11px/1.8 -apple-system,system-ui,sans-serif;opacity:.85;margin-top:8px;direction:rtl"><span id="appVer"></span> · <button id="refreshBtn" type="button" style="font:inherit;color:inherit;background:none;border:1px solid currentColor;border-radius:12px;padding:3px 10px;cursor:pointer">🔄 تحديث الصفحة</button></div></footer>
@@ -65,4 +66,5 @@ document.addEventListener('DOMContentLoaded',function(){var v=document.getElemen
 <button id="askBtn" style="margin-top:10px;width:100%;padding:12px;border:0;border-radius:12px;background:#5aa9e6;color:#fff;font-weight:700;font-size:16px">أرسلي لفصفص 💙</button>
 </section>
 <script>document.getElementById('askBtn').onclick=function(){var t=document.getElementById('askText').value.trim();if(!t)return;location.href='https://wa.me/966590900178?text='+encodeURIComponent('طلب من ست الكل لصفحتها: '+t);};</script>
+<script src="fun.js"></script>
 <script src="note.js"></script></body></html>
