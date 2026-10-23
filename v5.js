@@ -3,11 +3,16 @@ const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'
 const wa=t=>`https://wa.me/${C.whatsappNumber}?text=${encodeURIComponent(t)}`;
 const today=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Riyadh'});
 // أذكار
-J('data/adhkar.json','adhkar').then(a=>{if(!a)return;const K='dh-'+today,st=JSON.parse(localStorage.getItem(K)||'{}');
- const all=[...a.morning.map((x,i)=>['m'+i,...x]),...a.tayseer.map((x,i)=>['t'+i,...x])];
- const item=([k,t,x,n])=>{const c=st[k]||0,done=c>=n;return `<li class="dk${done?' done':''}" data-k="${k}" data-n="${n}">${t?`<b>${t}</b>`:''}<p>${x}</p><span class="cnt">${done?'تم 💙':`${c} من ${n}`}</span></li>`};
- const draw=()=>{$('adhkarM').innerHTML=all.filter(x=>x[0][0]=='m').map(item).join('');$('adhkarT').innerHTML=all.filter(x=>x[0][0]=='t').map(item).join('')};
- $('adhkar').onclick=e=>{const li=e.target.closest('.dk');if(!li)return;const k=li.dataset.k,n=+li.dataset.n;st[k]=Math.min(n,(st[k]||0)+1);localStorage.setItem(K,JSON.stringify(st));draw()};draw()});
+J('data/adhkar.json','adhkar').then(a=>{if(!a)return;const K='dh-'+today,st=JSON.parse(localStorage.getItem(K)||'{}'),ev=a.evening||[];
+ const all=[...a.morning.map((x,i)=>['m'+i,...x]),...ev.map((x,i)=>['e'+i,...x]),...a.tayseer.map((x,i)=>['t'+i,...x])];
+ const item=([k,t,x,n,s])=>{const c=st[k]||0,done=c>=n;return `<li class="dk${done?' done':''}" data-k="${k}" data-n="${n}">${t?`<b>${t}</b>`:''}<p>${x}</p><span class="cnt">${done?'تم 💙':`${c} من ${n}`}</span>${s?`<small class="src">المصدر: ${s}</small>`:''}</li>`};
+ const h=+new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Riyadh',hour:'2-digit',hour12:false}).format(new Date())%24;
+ let tab=(h>=15||h<4)?'e':'m';if(!ev.length)tab='m';
+ const draw=()=>{const L=p=>all.filter(x=>x[0][0]==p).map(item).join('');$('adhkarM').innerHTML=L('m');$('adhkarE').innerHTML=L('e');$('adhkarT').innerHTML=L('t');
+  $('adhkarM').hidden=tab!='m';$('adhkarE').hidden=tab!='e';$('dkTabM').classList.toggle('on',tab=='m');$('dkTabE').classList.toggle('on',tab=='e');
+  $('dkHint').textContent=tab=='m'?'🌅 من بعد الفجر إلى الضحى':'🌙 من بعد العصر إلى آخر الليل';$('dkNote').textContent=a.note||''};
+ $('dkTabs').style.display=ev.length?'':'none';
+ $('adhkar').onclick=e=>{const tb=e.target.closest('#dkTabs button');if(tb){tab=tb.dataset.t;draw();return}const li=e.target.closest('.dk');if(!li)return;const k=li.dataset.k,n=+li.dataset.n;st[k]=Math.min(n,(st[k]||0)+1);localStorage.setItem(K,JSON.stringify(st));draw()};draw()});
 // مواقع الفاشن
 J('data/fashion_sites.json','fsites').then(f=>{if(!f)return;$('fsites').innerHTML=f.sites.map(s=>`<a class="site" href="${esc(s.url)}" target="_blank" rel="noopener"><span>${s.icon}</span><b>${esc(s.name)}</b><small>${esc(s.desc)}</small></a>`).join('');$('fsNote').textContent=f.note||''});
 // مهامي وراحة بالي

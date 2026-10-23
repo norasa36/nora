@@ -1,0 +1,22 @@
+#nassr h2 small{font-size:12px;opacity:.6;font-family:inherit;direction:ltr;margin-inline-start:4px}
+#nassr h3{margin:16px 0 6px;font-size:15px;color:var(--navy)}
+#nassr .ns-hero{background:linear-gradient(135deg,#e8f4ff,#fff8e1);border-radius:14px;padding:10px 12px;font-size:13px;line-height:1.9;text-align:center;margin:6px 0}
+#nassr .ns-hero span{display:block;color:var(--navy)}
+#nassr .ns-k{font-size:12px;color:var(--navy);opacity:.85;margin-bottom:4px}
+#nassr .ns-next,#nassr .ns-live{background:var(--bg1);border:1.5px solid var(--sky);border-radius:16px;padding:12px;margin:10px 0;text-align:center}
+#nassr .ns-live{border-color:#e57373;background:#fff5f5}
+#nassr .ns-teams{font-size:19px;color:var(--navy);line-height:1.8}#nassr .ns-teams i{opacity:.5;font-style:normal;margin:0 4px}
+#nassr b.me{color:var(--navy);background:linear-gradient(transparent 62%,#ffe08a 62%)}
+#nassr .ns-when{font-size:14px;margin-top:4px}#nassr .ns-pl{font-size:12.5px;margin-top:4px;line-height:1.7}
+#nassr .ns-big{font-size:26px;font-weight:700;color:var(--navy)}
+#nassr .ns-mut{opacity:.65;font-size:12.5px}
+#nassr .ns-ls{list-style:none;margin:0;padding:0}#nassr .ns-ls li{background:var(--bg1);border-radius:14px;padding:9px 12px;margin:7px 0}
+#nassr .ns-t{font-size:15px;color:var(--navy)}#nassr .ns-s{font-size:12px;margin-top:2px;line-height:1.7}
+#nassr .ns-sc{display:inline-block;background:var(--navy);color:#fff;border-radius:9px;padding:0 8px;font-size:13px;margin:0 4px}
+#nassr .ns-chip{font-size:11px;border-radius:9px;padding:1px 8px;color:#fff}.ns-w{background:#4caf86}.ns-d{background:#f0b44c}.ns-l{background:#e57373}
+#nassr .ns-form{margin:2px 0 6px;display:flex;gap:5px;align-items:center;flex-wrap:wrap}#nassr .ns-dot{width:26px;height:26px;border-radius:50%;color:#fff;font-size:12px;display:inline-flex;align-items:center;justify-content:center}
+#nassr .ns-tabs{display:flex;gap:8px;margin:4px 0 8px}#nassr .ns-tabs button,#nassr .ns-more{border:0;border-radius:12px;padding:8px 10px;font:inherit;font-size:13px;background:var(--bg1);color:var(--navy);cursor:pointer}#nassr .ns-tabs button{flex:1}#nassr .ns-tabs button.on{background:var(--navy);color:#fff}
+#nassr .ns-more{display:block;margin:8px auto 0}
+#nassr .ns-tb{width:100%;border-collapse:collapse;font-size:12.5px;text-align:center}#nassr .ns-tb th{font-weight:400;opacity:.65;padding:3px 2px}#nassr .ns-tb td{padding:6px 2px;border-top:1px solid var(--bg2)}#nassr .ns-tb td:nth-child(2){text-align:start}#nassr .ns-tb tr.me td{background:#fff3cd;color:var(--navy);font-weight:700}
+#nassr .ns-stars{margin-top:12px;font-size:12.5px;line-height:1.9}
+#nassr .ns-foot{margin-top:12px;font-size:11px;opacity:.65;line-height:1.8}

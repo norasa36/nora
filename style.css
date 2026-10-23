@@ -59,3 +59,6 @@ body{padding-bottom:calc(env(safe-area-inset-bottom) + 80px)}
 .wx-ov{position:fixed;inset:0;background:rgba(11,79,138,.93);z-index:99;overflow:auto;-webkit-overflow-scrolling:touch}.wx-ov img{width:100%;height:auto;display:block}
 .wx-x{position:fixed;top:calc(env(safe-area-inset-top) + 10px);left:12px;z-index:100;border:0;border-radius:50%;width:38px;height:38px;font-size:18px;background:#7cc4f5;color:#fff}
 #wedWx .wx-pend{font-size:12px;color:var(--navy);background:var(--bg1);border:1px dashed var(--sky);border-radius:12px;padding:6px 10px;margin-top:8px;text-align:center}
+
+.dk-tabs{display:flex;gap:8px;margin:10px 0 4px}.dk-tabs button{flex:1;border:0;border-radius:14px;padding:10px 6px;font:inherit;font-size:14px;background:var(--bg1);color:var(--navy);cursor:pointer}.dk-tabs button.on{background:var(--navy);color:#fff}.dk .src{display:block;margin-top:4px;font-size:11px;opacity:.65}.dk-note{margin-top:8px;font-size:11px;opacity:.7}
+ul[hidden]{display:none}
