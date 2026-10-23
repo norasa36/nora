@@ -6,7 +6,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="الشيخة نورة">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="french.css"><link rel="stylesheet" href="nassr.css"><script>
-window.APP_VERSION='20261023-030813';
+window.APP_VERSION='20261023-031042';
 (function(){
 var V=window.APP_VERSION,ss=window.sessionStorage,sw=navigator.serviceWorker;
 function reset(){var p=[];
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded',function(){var v=document.getElemen
  if(v)v.textContent='نسخة '+V;if(b)b.onclick=function(){b.textContent='⏳ ...';window.hardRefresh();};});
 })();
 </script>
-</head><body>
+<!--CG:CSS--><link rel="stylesheet" href="concierge.css"><!--/CG:CSS--></head><body>
 <header class="hero">
  <div class="title">جدول الشيخة نورة <span class="heart">🩵</span></div>
  <div id="greet" class="greet"></div>
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded',function(){var v=document.getElemen
 <section class="card"><h2>👗 إطلالة اليوم</h2><div id="outfit" class="outfit"></div></section>
 <section class="card"><h2>🏃‍♀️ رياضتي</h2><div id="workout" class="workout"></div></section>
 <section class="card"><h2>🧴 بيوتي وعناية</h2><ul id="beauty" class="tasks"></ul><div class="sub" id="beautyP"></div></section>
-<section class="card trip"><h2>✈️ رحلة أسبن</h2><div id="trip"></div></section>
+<!--CG:SEC--><section class="card" id="concierge"><h2>🛎️ الكونسيرج</h2><div class="na">…</div></section><!--/CG:SEC--><section class="card trip"><h2>✈️ رحلة أسبن</h2><div id="trip"></div></section>
 <section class="card trip" id="honeymoon"><h2>💙 شهر العسل · أسبن · ميامي · نيويورك</h2><div class="sub" id="hmNote"></div><div class="tabs" id="hmTabs"></div><div id="hmBody"></div></section>
 <section class="card"><h2>🛍️ ترند الفاشن</h2><div class="sub" id="fWeek"></div><ul id="fashion" class="fash"></ul><div class="sub" style="margin-top:10px">🔗 مواقعي المفضلة</div><div id="fsites" class="sites"></div><div class="sub" id="fsNote" style="margin-top:6px"></div></section>
 <section class="card"><h2>💎 قائمة أمنياتي</h2><form id="wishForm" class="wf"><input id="wName" placeholder="اسم القطعة" required><input id="wLink" placeholder="الرابط (اختياري)" type="url"><input id="wPrice" placeholder="السعر المستهدف" inputmode="decimal"><button>＋</button></form><ul id="wish" class="wish"></ul></section>
@@ -71,4 +71,4 @@ document.addEventListener('DOMContentLoaded',function(){var v=document.getElemen
 <script>document.getElementById('askBtn').onclick=function(){var t=document.getElementById('askText').value.trim();if(!t)return;location.href='https://wa.me/966590900178?text='+encodeURIComponent('طلب من ست الكل لصفحتها: '+t);};</script>
 <script src="fun.js"></script><script src="weather.js"></script>
 <script src="note.js"></script><script>window.FR_CFG={theme:'n',intro:'درس صغير كل يوم، تتعلمينه أنتِ وأبو خالد مع بعض 🩵',finish:'🩵 أحسنتِ! خلصتي درس اليوم',foot:'تقدمك محفوظ في هذا الجهاز 🩵'};</script><script src="nassr.js"></script>
-<script src="french.js"></script></body></html>
+<script src="french.js"></script><!--CG:JS--><script>window.CG_CFG={"theme": "n", "bot": "فصفص", "wa": "966590900178", "prefix": "طلب لفصفص (صفحة ست الكل): ", "title": "🛎️ الكونسيرج 🩵", "intro": "قولي لفصفص وش تبين: حجز أي شي، في أي مكان وأي وقت 🩵 اختاري الخدمة، عبّي التفاصيل، ويفتح لك واتساب برسالة مرتبة جاهزة.", "rule": "فصفص يجهّز الحجز لين خطوة الدفع بس، والدفع يتم منكم بعد ما تراجعون التفاصيل 🩵", "payNote": "جهّزه لين خطوة الدفع فقط، والدفع يتم منّا بعد المراجعة 🩵", "send": "أرسلي لفصفص 🩵", "me": "NORAH SULAIMAN A AL THUNAYYAN", "pax": [{"n": "NORAH SULAIMAN A AL THUNAYYAN", "l": "نورة"}, {"n": "FAISAL MOHAMMED F ALMOAMMAR", "l": "أبو خالد"}]};</script><script src="concierge.js"></script><!--/CG:JS--></body></html>
