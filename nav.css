@@ -1,0 +1,15 @@
+/* sticky needs body not to be a scroll container (style.css sets html,body overflow-x:hidden) */
+body{overflow-x:visible;overflow-x:clip}
+/* شريط أقسام ثابت — فصفص 🩵 */
+.sec-nav-sentinel{height:1px;margin-top:-1px;pointer-events:none}
+.sec-nav{position:sticky;top:0;z-index:20;margin:4px -14px 8px;padding:6px 14px 6px;background:rgba(244,250,255,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid transparent;transition:box-shadow .2s,border-color .2s}
+.sec-nav.stuck{padding-top:calc(env(safe-area-inset-top) + 6px);border-bottom-color:var(--bg2);box-shadow:0 4px 14px rgba(11,79,138,.10)}
+.sec-nav-in{display:flex;gap:6px;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none;overscroll-behavior-x:contain;padding:2px 2px 4px}
+.sec-nav-in::-webkit-scrollbar{display:none}
+.sec-nav a{flex:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;min-width:58px;padding:6px 10px 5px;border-radius:16px;background:#fff;border:1px solid var(--bg2);color:var(--ink);text-decoration:none;-webkit-tap-highlight-color:transparent;transition:background .2s,color .2s,border-color .2s,transform .2s}
+.sec-nav a .i{font-size:19px;line-height:1.25}
+.sec-nav a .t{font-size:11px;line-height:1.35;white-space:nowrap}
+.sec-nav a.on{background:var(--sky);border-color:var(--sky);color:#fff;font-weight:700;transform:translateY(-1px)}
+.sec-nav a.on .t{color:#fff}
+.sec-nav a:active{transform:scale(.96)}
+@media (prefers-reduced-motion:reduce){.sec-nav,.sec-nav a{transition:none}}
