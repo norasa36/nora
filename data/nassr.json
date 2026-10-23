@@ -8,7 +8,7 @@
    "date": "2026-10-23T13:30Z",
    "tbd": false,
    "state": "in",
-   "detail": "35'",
+   "detail": "68'",
    "comp": "دوري روشن السعودي",
    "comp_en": "Saudi Pro League",
    "round": null,
@@ -17,8 +17,8 @@
    "home_en": "Al Faisaly",
    "away_en": "Al Nassr",
    "nassr_home": false,
-   "hs": "0",
-   "as": "1",
+   "hs": "1",
+   "as": "2",
    "venue": "Al Majma'a Sport City Stadium",
    "city": "المجمعة",
    "country": "السعودية"
@@ -759,5 +759,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-10-23 17:05"
+ "updated": "2026-10-23 17:57"
 }
