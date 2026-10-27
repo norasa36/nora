@@ -589,12 +589,12 @@
      "team": "القادسية",
      "team_en": "Al Qadsiah",
      "rank": 6,
-     "p": "2",
+     "p": "3",
      "w": "1",
-     "d": "1",
+     "d": "2",
      "l": "0",
      "gd": "+1",
-     "pts": "4",
+     "pts": "5",
      "me": false
     },
     {
@@ -634,15 +634,15 @@
      "me": false
     },
     {
-     "team": "باختاكور",
-     "team_en": "Pakhtakor",
+     "team": "Al-Quwa Al-Jawiya",
+     "team_en": "Al-Quwa Al-Jawiya",
      "rank": 10,
-     "p": "2",
-     "w": "0",
-     "d": "2",
-     "l": "0",
-     "gd": "0",
-     "pts": "2",
+     "p": "3",
+     "w": "1",
+     "d": "0",
+     "l": "2",
+     "gd": "-3",
+     "pts": "3",
      "me": false
     },
     {
@@ -658,9 +658,21 @@
      "me": false
     },
     {
+     "team": "باختاكور",
+     "team_en": "Pakhtakor",
+     "rank": 12,
+     "p": "3",
+     "w": "0",
+     "d": "2",
+     "l": "1",
+     "gd": "-1",
+     "pts": "2",
+     "me": false
+    },
+    {
      "team": "Tractor",
      "team_en": "Tractor",
-     "rank": 12,
+     "rank": 13,
      "p": "3",
      "w": "0",
      "d": "1",
@@ -670,9 +682,21 @@
      "me": false
     },
     {
+     "team": "السد",
+     "team_en": "Al Sadd",
+     "rank": 14,
+     "p": "3",
+     "w": "0",
+     "d": "1",
+     "l": "2",
+     "gd": "-5",
+     "pts": "1",
+     "me": false
+    },
+    {
      "team": "الغرافة",
      "team_en": "Al-Gharafa",
-     "rank": 13,
+     "rank": 15,
      "p": "3",
      "w": "0",
      "d": "0",
@@ -684,36 +708,12 @@
     {
      "team": "الوصل",
      "team_en": "Al Wasl",
-     "rank": 14,
-     "p": "2",
-     "w": "0",
-     "d": "0",
-     "l": "2",
-     "gd": "-3",
-     "pts": "0",
-     "me": false
-    },
-    {
-     "team": "Al-Quwa Al-Jawiya",
-     "team_en": "Al-Quwa Al-Jawiya",
-     "rank": 15,
-     "p": "2",
-     "w": "0",
-     "d": "0",
-     "l": "2",
-     "gd": "-4",
-     "pts": "0",
-     "me": false
-    },
-    {
-     "team": "السد",
-     "team_en": "Al Sadd",
      "rank": 16,
      "p": "2",
      "w": "0",
      "d": "0",
      "l": "2",
-     "gd": "-5",
+     "gd": "-3",
      "pts": "0",
      "me": false
     }
@@ -738,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-10-26 23:04"
+ "updated": "2026-10-27 07:04"
 }
