@@ -538,27 +538,27 @@
      "me": false
     },
     {
+     "team": "شباب الأهلي",
+     "team_en": "Shabab Al Ahli",
+     "rank": 2,
+     "p": "3",
+     "w": "3",
+     "d": "0",
+     "l": "0",
+     "gd": "+4",
+     "pts": "9",
+     "me": false
+    },
+    {
      "team": "الأهلي",
      "team_en": "Al Ahli",
-     "rank": 2,
+     "rank": 3,
      "p": "3",
      "w": "2",
      "d": "1",
      "l": "0",
      "gd": "+3",
      "pts": "7",
-     "me": false
-    },
-    {
-     "team": "Esteghlal FC",
-     "team_en": "Esteghlal FC",
-     "rank": 3,
-     "p": "2",
-     "w": "2",
-     "d": "0",
-     "l": "0",
-     "gd": "+4",
-     "pts": "6",
      "me": false
     },
     {
@@ -574,13 +574,13 @@
      "me": false
     },
     {
-     "team": "شباب الأهلي",
-     "team_en": "Shabab Al Ahli",
+     "team": "Esteghlal FC",
+     "team_en": "Esteghlal FC",
      "rank": 5,
-     "p": "2",
+     "p": "3",
      "w": "2",
      "d": "0",
-     "l": "0",
+     "l": "1",
      "gd": "+2",
      "pts": "6",
      "me": false
@@ -738,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-10-27 20:00"
+ "updated": "2026-10-27 21:04"
 }
