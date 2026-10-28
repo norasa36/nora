@@ -562,21 +562,9 @@
      "me": false
     },
     {
-     "team": "الهلال",
-     "team_en": "Al Hilal",
-     "rank": 4,
-     "p": "2",
-     "w": "2",
-     "d": "0",
-     "l": "0",
-     "gd": "+3",
-     "pts": "6",
-     "me": false
-    },
-    {
      "team": "Esteghlal FC",
      "team_en": "Esteghlal FC",
-     "rank": 5,
+     "rank": 4,
      "p": "3",
      "w": "2",
      "d": "0",
@@ -586,9 +574,33 @@
      "me": false
     },
     {
+     "team": "الهلال",
+     "team_en": "Al Hilal",
+     "rank": 5,
+     "p": "3",
+     "w": "2",
+     "d": "0",
+     "l": "1",
+     "gd": "+1",
+     "pts": "6",
+     "me": false
+    },
+    {
+     "team": "الشمال",
+     "team_en": "Al-Shamal",
+     "rank": 6,
+     "p": "3",
+     "w": "1",
+     "d": "2",
+     "l": "0",
+     "gd": "+2",
+     "pts": "5",
+     "me": false
+    },
+    {
      "team": "القادسية",
      "team_en": "Al Qadsiah",
-     "rank": 6,
+     "rank": 7,
      "p": "3",
      "w": "1",
      "d": "2",
@@ -600,7 +612,7 @@
     {
      "team": "الاتحاد",
      "team_en": "Al Ittihad",
-     "rank": 7,
+     "rank": 8,
      "p": "3",
      "w": "1",
      "d": "1",
@@ -612,7 +624,7 @@
     {
      "team": "النصر",
      "team_en": "Al Nassr",
-     "rank": 8,
+     "rank": 9,
      "p": "2",
      "w": "1",
      "d": "0",
@@ -624,7 +636,7 @@
     {
      "team": "نفتشي فرغانة",
      "team_en": "Neftchi Fergana",
-     "rank": 9,
+     "rank": 10,
      "p": "3",
      "w": "1",
      "d": "0",
@@ -636,25 +648,13 @@
     {
      "team": "Al-Quwa Al-Jawiya",
      "team_en": "Al-Quwa Al-Jawiya",
-     "rank": 10,
+     "rank": 11,
      "p": "3",
      "w": "1",
      "d": "0",
      "l": "2",
      "gd": "-3",
      "pts": "3",
-     "me": false
-    },
-    {
-     "team": "الشمال",
-     "team_en": "Al-Shamal",
-     "rank": 11,
-     "p": "2",
-     "w": "0",
-     "d": "2",
-     "l": "0",
-     "gd": "0",
-     "pts": "2",
      "me": false
     },
     {
@@ -738,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-10-27 23:08"
+ "updated": "2026-10-28 07:06"
 }
