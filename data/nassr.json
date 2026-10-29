@@ -8,7 +8,7 @@
    "date": "2026-10-29T18:00Z",
    "tbd": false,
    "state": "in",
-   "detail": "3'",
+   "detail": "47'",
    "comp": "دوري روشن السعودي",
    "comp_en": "Saudi Pro League",
    "round": null,
@@ -17,8 +17,8 @@
    "home_en": "Al Nassr",
    "away_en": "Al Kholood",
    "nassr_home": true,
-   "hs": null,
-   "as": null,
+   "hs": "2",
+   "as": "2",
    "venue": "Al-Awwal Park",
    "city": "الرياض",
    "country": "السعودية"
@@ -759,5 +759,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-10-29 21:03"
+ "updated": "2026-10-29 22:09"
 }
