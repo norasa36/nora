@@ -2,28 +2,7 @@
  "ok": true,
  "source": "ESPN",
  "standing_en": "2nd in Saudi Pro League",
- "live": [
-  {
-   "id": "401900881",
-   "date": "2026-10-29T18:00Z",
-   "tbd": false,
-   "state": "in",
-   "detail": "47'",
-   "comp": "دوري روشن السعودي",
-   "comp_en": "Saudi Pro League",
-   "round": null,
-   "home": "النصر",
-   "away": "الخلود",
-   "home_en": "Al Nassr",
-   "away_en": "Al Kholood",
-   "nassr_home": true,
-   "hs": "2",
-   "as": "2",
-   "venue": "Al-Awwal Park",
-   "city": "الرياض",
-   "country": "السعودية"
-  }
- ],
+ "live": [],
  "next": [
   {
    "id": "401912631",
@@ -326,39 +305,39 @@
    "name": "دوري روشن السعودي",
    "rows": [
     {
-     "team": "الهلال",
-     "team_en": "Al Hilal",
+     "team": "القادسية",
+     "team_en": "Al Qadsiah",
      "rank": 1,
-     "p": "10",
+     "p": "12",
      "w": "9",
-     "d": "0",
-     "l": "1",
-     "gd": "+21",
-     "pts": "27",
+     "d": "1",
+     "l": "2",
+     "gd": "+20",
+     "pts": "28",
      "me": false
     },
     {
      "team": "النصر",
      "team_en": "Al Nassr",
      "rank": 2,
-     "p": "10",
-     "w": "8",
+     "p": "11",
+     "w": "9",
      "d": "1",
      "l": "1",
-     "gd": "+15",
-     "pts": "25",
+     "gd": "+17",
+     "pts": "28",
      "me": true
     },
     {
-     "team": "القادسية",
-     "team_en": "Al Qadsiah",
+     "team": "الهلال",
+     "team_en": "Al Hilal",
      "rank": 3,
-     "p": "11",
-     "w": "8",
-     "d": "1",
-     "l": "2",
-     "gd": "+14",
-     "pts": "25",
+     "p": "10",
+     "w": "9",
+     "d": "0",
+     "l": "1",
+     "gd": "+21",
+     "pts": "27",
      "me": false
     },
     {
@@ -437,11 +416,11 @@
      "team": "الخلود",
      "team_en": "Al Kholood",
      "rank": 10,
-     "p": "10",
+     "p": "11",
      "w": "3",
      "d": "3",
-     "l": "4",
-     "gd": "-7",
+     "l": "5",
+     "gd": "-9",
      "pts": "12",
      "me": false
     },
@@ -449,11 +428,11 @@
      "team": "الرياض",
      "team_en": "Al Riyadh",
      "rank": 11,
-     "p": "10",
+     "p": "11",
      "w": "3",
      "d": "3",
-     "l": "4",
-     "gd": "-8",
+     "l": "5",
+     "gd": "-14",
      "pts": "12",
      "me": false
     },
@@ -759,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-10-29 22:09"
+ "updated": "2026-10-29 23:09"
 }
