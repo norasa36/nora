@@ -2,14 +2,13 @@
  "ok": true,
  "source": "ESPN",
  "standing_en": "2nd in Saudi Pro League",
- "live": [],
- "next": [
+ "live": [
   {
    "id": "401900881",
    "date": "2026-10-29T18:00Z",
    "tbd": false,
-   "state": "pre",
-   "detail": "10/29 - 2:00 PM EDT",
+   "state": "in",
+   "detail": "3'",
    "comp": "دوري روشن السعودي",
    "comp_en": "Saudi Pro League",
    "round": null,
@@ -23,7 +22,9 @@
    "venue": "Al-Awwal Park",
    "city": "الرياض",
    "country": "السعودية"
-  },
+  }
+ ],
+ "next": [
   {
    "id": "401912631",
    "date": "2026-11-02T13:45Z",
@@ -163,6 +164,26 @@
    "venue": null,
    "city": null,
    "country": null
+  },
+  {
+   "id": "401912567",
+   "date": "2026-12-08T16:00Z",
+   "tbd": false,
+   "state": "pre",
+   "detail": "12/8 - 11:00 AM EST",
+   "comp": "دوري أبطال آسيا للنخبة",
+   "comp_en": "AFC Champions League Elite",
+   "round": "مرحلة الدوري",
+   "home": "الغرافة",
+   "away": "النصر",
+   "home_en": "Al-Gharafa",
+   "away_en": "Al Nassr",
+   "nassr_home": false,
+   "hs": null,
+   "as": null,
+   "venue": "Thani bin Jassim Stadium",
+   "city": "الريان",
+   "country": "قطر"
   }
  ],
  "results": [
@@ -738,5 +759,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-10-29 20:08"
+ "updated": "2026-10-29 21:03"
 }
