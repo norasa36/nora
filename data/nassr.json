@@ -167,6 +167,27 @@
  ],
  "results": [
   {
+   "id": "401900881",
+   "date": "2026-10-29T18:00Z",
+   "tbd": false,
+   "state": "post",
+   "detail": "FT",
+   "comp": "دوري روشن السعودي",
+   "comp_en": "Saudi Pro League",
+   "round": null,
+   "home": "النصر",
+   "away": "الخلود",
+   "home_en": "Al Nassr",
+   "away_en": "Al Kholood",
+   "nassr_home": true,
+   "hs": "5",
+   "as": "3",
+   "venue": "Al-Awwal Park",
+   "city": "الرياض",
+   "country": "السعودية",
+   "res": "W"
+  },
+  {
    "id": "401900444",
    "date": "2026-10-23T13:30Z",
    "tbd": false,
@@ -270,27 +291,6 @@
    "city": "العين",
    "country": "الإمارات",
    "res": "L"
-  },
-  {
-   "id": "401900921",
-   "date": "2026-09-12T18:00Z",
-   "tbd": false,
-   "state": "post",
-   "detail": "FT",
-   "comp": "دوري روشن السعودي",
-   "comp_en": "Saudi Pro League",
-   "round": null,
-   "home": "الخليج",
-   "away": "النصر",
-   "home_en": "Al Khaleej",
-   "away_en": "Al Nassr",
-   "nassr_home": false,
-   "hs": "1",
-   "as": "1",
-   "venue": "Prince Mohammed Bin Fahd Stadium",
-   "city": "الدمام",
-   "country": "السعودية",
-   "res": "D"
   }
  ],
  "form": [
@@ -298,7 +298,7 @@
   "W",
   "W",
   "W",
-  "L"
+  "W"
  ],
  "tables": {
   "ksa": {
@@ -738,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-10-29 23:09"
+ "updated": "2026-10-30 07:08"
 }
