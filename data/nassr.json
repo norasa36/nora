@@ -1,7 +1,7 @@
 {
  "ok": true,
  "source": "ESPN",
- "standing_en": "2nd in Saudi Pro League",
+ "standing_en": "3rd in Saudi Pro League",
  "live": [],
  "next": [
   {
@@ -305,9 +305,21 @@
    "name": "دوري روشن السعودي",
    "rows": [
     {
+     "team": "الهلال",
+     "team_en": "Al Hilal",
+     "rank": 1,
+     "p": "11",
+     "w": "10",
+     "d": "0",
+     "l": "1",
+     "gd": "+23",
+     "pts": "30",
+     "me": false
+    },
+    {
      "team": "القادسية",
      "team_en": "Al Qadsiah",
-     "rank": 1,
+     "rank": 2,
      "p": "12",
      "w": "9",
      "d": "1",
@@ -319,7 +331,7 @@
     {
      "team": "النصر",
      "team_en": "Al Nassr",
-     "rank": 2,
+     "rank": 3,
      "p": "11",
      "w": "9",
      "d": "1",
@@ -327,18 +339,6 @@
      "gd": "+17",
      "pts": "28",
      "me": true
-    },
-    {
-     "team": "الهلال",
-     "team_en": "Al Hilal",
-     "rank": 3,
-     "p": "10",
-     "w": "9",
-     "d": "0",
-     "l": "1",
-     "gd": "+21",
-     "pts": "27",
-     "me": false
     },
     {
      "team": "الاتحاد",
@@ -488,11 +488,11 @@
      "team": "الفتح",
      "team_en": "Al Fateh",
      "rank": 16,
-     "p": "11",
+     "p": "12",
      "w": "1",
      "d": "3",
-     "l": "7",
-     "gd": "-13",
+     "l": "8",
+     "gd": "-15",
      "pts": "6",
      "me": false
     },
@@ -738,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-10-31 22:05"
+ "updated": "2026-10-31 23:06"
 }
