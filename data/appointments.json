@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T06:07",
+ "generated": "2026-11-02T01:05",
  "items": [
   {
    "date": "2026-10-19",
@@ -129,8 +129,22 @@
   },
   {
    "date": "2026-11-02",
+   "start": "15:00",
+   "end": null,
+   "title": "موعد",
+   "icon": "calendar"
+  },
+  {
+   "date": "2026-11-02",
    "start": "21:00",
    "end": "22:00",
+   "title": "موعد",
+   "icon": "calendar"
+  },
+  {
+   "date": "2026-11-03",
+   "start": "15:15",
+   "end": null,
    "title": "موعد",
    "icon": "calendar"
   },
@@ -151,6 +165,13 @@
   {
    "date": "2026-11-08",
    "start": "11:15",
+   "end": null,
+   "title": "موعد",
+   "icon": "calendar"
+  },
+  {
+   "date": "2026-11-10",
+   "start": "12:50",
    "end": null,
    "title": "موعد",
    "icon": "calendar"
