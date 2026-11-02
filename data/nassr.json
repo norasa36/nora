@@ -2,14 +2,13 @@
  "ok": true,
  "source": "ESPN",
  "standing_en": "3rd in Saudi Pro League",
- "live": [],
- "next": [
+ "live": [
   {
    "id": "401912631",
    "date": "2026-11-02T13:45Z",
    "tbd": false,
-   "state": "pre",
-   "detail": "11/2 - 8:45 AM EST",
+   "state": "in",
+   "detail": "15'",
    "comp": "دوري أبطال آسيا للنخبة",
    "comp_en": "AFC Champions League Elite",
    "round": "مرحلة الدوري",
@@ -18,12 +17,14 @@
    "home_en": "Pakhtakor",
    "away_en": "Al Nassr",
    "nassr_home": false,
-   "hs": null,
-   "as": null,
+   "hs": "0",
+   "as": "0",
    "venue": "Pakhtakor Markaziy Stadium",
    "city": "طشقند",
    "country": "أوزبكستان"
-  },
+  }
+ ],
+ "next": [
   {
    "id": "401900442",
    "date": "2026-11-06T14:55Z",
@@ -163,6 +164,26 @@
    "venue": "Thani bin Jassim Stadium",
    "city": "الريان",
    "country": "قطر"
+  },
+  {
+   "id": "401900840",
+   "date": "2026-12-10T20:00Z",
+   "tbd": true,
+   "state": "pre",
+   "detail": "TBD",
+   "comp": "دوري روشن السعودي",
+   "comp_en": "Saudi Pro League",
+   "round": null,
+   "home": "النصر",
+   "away": "الهلال",
+   "home_en": "Al Nassr",
+   "away_en": "Al Hilal",
+   "nassr_home": true,
+   "hs": null,
+   "as": null,
+   "venue": null,
+   "city": null,
+   "country": null
   }
  ],
  "results": [
@@ -738,5 +759,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-11-02 16:09"
+ "updated": "2026-11-02 17:01"
 }
