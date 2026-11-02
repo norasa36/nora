@@ -553,12 +553,12 @@
      "team": "الأهلي",
      "team_en": "Al Ahli",
      "rank": 3,
-     "p": "3",
+     "p": "4",
      "w": "2",
-     "d": "1",
+     "d": "2",
      "l": "0",
      "gd": "+3",
-     "pts": "7",
+     "pts": "8",
      "me": false
     },
     {
@@ -637,6 +637,18 @@
      "team": "نفتشي فرغانة",
      "team_en": "Neftchi Fergana",
      "rank": 10,
+     "p": "4",
+     "w": "1",
+     "d": "1",
+     "l": "2",
+     "gd": "-2",
+     "pts": "4",
+     "me": false
+    },
+    {
+     "team": "الوصل",
+     "team_en": "Al Wasl",
+     "rank": 11,
      "p": "3",
      "w": "1",
      "d": "0",
@@ -648,19 +660,31 @@
     {
      "team": "Al-Quwa Al-Jawiya",
      "team_en": "Al-Quwa Al-Jawiya",
-     "rank": 11,
-     "p": "3",
+     "rank": 12,
+     "p": "4",
      "w": "1",
      "d": "0",
-     "l": "2",
-     "gd": "-3",
+     "l": "3",
+     "gd": "-4",
      "pts": "3",
+     "me": false
+    },
+    {
+     "team": "Tractor",
+     "team_en": "Tractor",
+     "rank": 13,
+     "p": "4",
+     "w": "0",
+     "d": "2",
+     "l": "2",
+     "gd": "-2",
+     "pts": "2",
      "me": false
     },
     {
      "team": "باختاكور",
      "team_en": "Pakhtakor",
-     "rank": 12,
+     "rank": 14,
      "p": "4",
      "w": "0",
      "d": "2",
@@ -670,49 +694,25 @@
      "me": false
     },
     {
-     "team": "Tractor",
-     "team_en": "Tractor",
-     "rank": 13,
-     "p": "3",
-     "w": "0",
-     "d": "1",
-     "l": "2",
-     "gd": "-2",
-     "pts": "1",
-     "me": false
-    },
-    {
      "team": "السد",
      "team_en": "Al Sadd",
-     "rank": 14,
-     "p": "3",
+     "rank": 15,
+     "p": "4",
      "w": "0",
-     "d": "1",
+     "d": "2",
      "l": "2",
      "gd": "-5",
-     "pts": "1",
+     "pts": "2",
      "me": false
     },
     {
      "team": "الغرافة",
      "team_en": "Al-Gharafa",
-     "rank": 15,
+     "rank": 16,
      "p": "3",
      "w": "0",
      "d": "0",
      "l": "3",
-     "gd": "-3",
-     "pts": "0",
-     "me": false
-    },
-    {
-     "team": "الوصل",
-     "team_en": "Al Wasl",
-     "rank": 16,
-     "p": "2",
-     "w": "0",
-     "d": "0",
-     "l": "2",
      "gd": "-3",
      "pts": "0",
      "me": false
@@ -738,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-11-02 20:03"
+ "updated": "2026-11-02 21:04"
 }
