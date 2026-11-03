@@ -5,26 +5,6 @@
  "live": [],
  "next": [
   {
-   "id": "401900442",
-   "date": "2026-11-06T14:55Z",
-   "tbd": false,
-   "state": "pre",
-   "detail": "11/6 - 9:55 AM EST",
-   "comp": "دوري روشن السعودي",
-   "comp_en": "Saudi Pro League",
-   "round": null,
-   "home": "الحزم",
-   "away": "النصر",
-   "home_en": "Al Hazem",
-   "away_en": "Al Nassr",
-   "nassr_home": false,
-   "hs": null,
-   "as": null,
-   "venue": "Al-Hazm Club Stadium",
-   "city": "Al-Rass",
-   "country": "السعودية"
-  },
-  {
    "id": "401900441",
    "date": "2026-11-20T20:00Z",
    "tbd": true,
@@ -158,6 +138,26 @@
    "home_en": "Al Nassr",
    "away_en": "Al Hilal",
    "nassr_home": true,
+   "hs": null,
+   "as": null,
+   "venue": null,
+   "city": null,
+   "country": null
+  },
+  {
+   "id": "401900836",
+   "date": "2026-12-14T20:00Z",
+   "tbd": true,
+   "state": "pre",
+   "detail": "TBD",
+   "comp": "دوري روشن السعودي",
+   "comp_en": "Saudi Pro League",
+   "round": null,
+   "home": "الفتح",
+   "away": "النصر",
+   "home_en": "Al Fateh",
+   "away_en": "Al Nassr",
+   "nassr_home": false,
    "hs": null,
    "as": null,
    "venue": null,
@@ -738,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-11-03 18:02"
+ "updated": "2026-11-03 19:12"
 }
