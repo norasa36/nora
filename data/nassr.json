@@ -550,9 +550,21 @@
      "me": false
     },
     {
+     "team": "Esteghlal FC",
+     "team_en": "Esteghlal FC",
+     "rank": 3,
+     "p": "4",
+     "w": "3",
+     "d": "0",
+     "l": "1",
+     "gd": "+3",
+     "pts": "9",
+     "me": false
+    },
+    {
      "team": "القادسية",
      "team_en": "Al Qadsiah",
-     "rank": 3,
+     "rank": 4,
      "p": "4",
      "w": "2",
      "d": "2",
@@ -564,7 +576,7 @@
     {
      "team": "الأهلي",
      "team_en": "Al Ahli",
-     "rank": 4,
+     "rank": 5,
      "p": "4",
      "w": "2",
      "d": "2",
@@ -576,18 +588,6 @@
     {
      "team": "النصر",
      "team_en": "Al Nassr",
-     "rank": 5,
-     "p": "3",
-     "w": "2",
-     "d": "0",
-     "l": "1",
-     "gd": "+2",
-     "pts": "6",
-     "me": true
-    },
-    {
-     "team": "Esteghlal FC",
-     "team_en": "Esteghlal FC",
      "rank": 6,
      "p": "3",
      "w": "2",
@@ -595,7 +595,7 @@
      "l": "1",
      "gd": "+2",
      "pts": "6",
-     "me": false
+     "me": true
     },
     {
      "team": "الهلال",
@@ -613,11 +613,11 @@
      "team": "الشمال",
      "team_en": "Al-Shamal",
      "rank": 8,
-     "p": "3",
+     "p": "4",
      "w": "1",
      "d": "2",
-     "l": "0",
-     "gd": "+2",
+     "l": "1",
+     "gd": "+1",
      "pts": "5",
      "me": false
     },
@@ -738,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-11-03 20:10"
+ "updated": "2026-11-03 21:10"
 }
