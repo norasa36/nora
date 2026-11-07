@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T01:05",
+ "generated": "2026-11-07T13:02",
  "items": [
   {
    "date": "2026-10-19",
@@ -86,20 +86,6 @@
    "icon": "calendar"
   },
   {
-   "date": "2026-10-27",
-   "start": "17:15",
-   "end": "18:00",
-   "title": "موعد",
-   "icon": "calendar"
-  },
-  {
-   "date": "2026-10-27",
-   "start": "18:15",
-   "end": "19:00",
-   "title": "موعد",
-   "icon": "calendar"
-  },
-  {
    "date": "2026-10-28",
    "start": "13:15",
    "end": "14:00",
@@ -124,6 +110,13 @@
    "date": "2026-10-29",
    "start": "20:00",
    "end": "21:00",
+   "title": "موعد",
+   "icon": "calendar"
+  },
+  {
+   "date": "2026-10-31",
+   "start": "11:00",
+   "end": null,
    "title": "موعد",
    "icon": "calendar"
   },
@@ -157,8 +150,29 @@
   },
   {
    "date": "2026-11-05",
+   "start": "18:45",
+   "end": null,
+   "title": "موعد",
+   "icon": "calendar"
+  },
+  {
+   "date": "2026-11-05",
    "start": "20:00",
    "end": "21:00",
+   "title": "موعد",
+   "icon": "calendar"
+  },
+  {
+   "date": "2026-11-06",
+   "start": "20:00",
+   "end": "21:00",
+   "title": "موعد",
+   "icon": "calendar"
+  },
+  {
+   "date": "2026-11-07",
+   "start": "07:00",
+   "end": null,
    "title": "موعد",
    "icon": "calendar"
   },
@@ -175,11 +189,41 @@
    "end": null,
    "title": "موعد",
    "icon": "calendar"
+  },
+  {
+   "date": "2026-11-10",
+   "start": "20:00",
+   "end": "21:00",
+   "title": "موعد",
+   "icon": "calendar"
+  },
+  {
+   "date": "2026-11-10",
+   "start": "22:00",
+   "end": null,
+   "title": "موعد",
+   "icon": "calendar"
+  },
+  {
+   "date": "2026-11-29",
+   "start": "20:00",
+   "end": "21:00",
+   "title": "موعد",
+   "icon": "calendar"
+  },
+  {
+   "date": "2026-11-29",
+   "start": "20:00",
+   "end": "21:00",
+   "title": "موعد",
+   "icon": "calendar"
   }
  ],
  "workouts_by_week": {
   "2026-10-18": 6,
-  "2026-10-25": 7,
-  "2026-11-01": 3
+  "2026-10-25": 5,
+  "2026-11-01": 4,
+  "2026-11-29": 2,
+  "2026-11-08": 1
  }
 }
