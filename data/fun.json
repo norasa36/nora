@@ -1,50 +1,50 @@
 {
  "ok": true,
- "date": "2026-11-07",
- "updated": "2026-11-07 06:22",
+ "date": "2026-11-08",
+ "updated": "2026-11-08 06:29",
  "jokes": [
+  {
+   "text": "واحد طلب قهوة «سادة»، الجرسون جاب له فنجان فاضي وقال: «دي سادة خالص»",
+   "source": "من X @dahkmashi",
+   "url": "https://x.com/dahkmashi/status/2117021758645551454"
+  },
+  {
+   "text": "الرياضة جميلة… في الصور",
+   "source": "من X @dahkmashi",
+   "url": "https://x.com/dahkmashi/status/2119153776527315453"
+  },
+  {
+   "text": "أقول اليوم بدون حلويات… حتى المغرب",
+   "source": "من X @dahkmashi",
+   "url": "https://x.com/dahkmashi/status/2119105852959342743"
+  },
+  {
+   "text": "أقرأ نصائح صحية… وأرسلها للغير",
+   "source": "من X @dahkmashi",
+   "url": "https://x.com/dahkmashi/status/2119034933239070829"
+  },
   {
    "text": "الموظف الجديد يسأل كثير… وبعد شهر يعطي نصائح",
    "source": "من X @dahkmashi",
    "url": "https://x.com/dahkmashi/status/2118457826532061651"
-  },
-  {
-   "text": "أقول أزيد حركة… وأتحرك للثلاجة",
-   "source": "من X @dahkmashi",
-   "url": "https://x.com/dahkmashi/status/2118849952029773956"
-  },
-  {
-   "text": "واحد يقول: كنت قاعد بالصالة جنب زوجتي وهي تاكل، فجأة سمعت جوالي بالمطبخ يرن نغمة رسالة. قمت للمطبخ لقيت رسالة من زوجتي: وانت راجع الصالة جيب معك كاتشب وملح!",
-   "source": "من X @kind_2004",
-   "url": "https://x.com/kind_2004/status/2113870526783602892"
-  },
-  {
-   "text": "الموظف إذا قال «تم الإرسال»… ينتظر الرد بقلق",
-   "source": "من X @dahkmashi",
-   "url": "https://x.com/dahkmashi/status/2118492135317999756"
-  },
-  {
-   "text": "مدرس رياضة قال للطلاب: «اجروا ورا أحلامكم»، الطلاب كلهم راحوا البيت يناموا 😂",
-   "source": "من X @dahkmashi",
-   "url": "https://x.com/dahkmashi/status/2117352989920756094"
   }
  ],
  "riddles": [
   {
-   "q": "كم وجهاً للمكعب؟",
-   "a": "ستة (اللغز من X)",
-   "source": "اللغز من X @fakker_thawani",
-   "url": "https://x.com/fakker_thawani/status/2118743210105196904"
+   "q": "ما هو الشيء الذي تحت قدمك وإذا قطعت رأسه يكون في فمك؟",
+   "a": "النعل (علّ = عسل) (اللغز من X)",
+   "source": "اللغز من X @BASYU4890",
+   "url": "https://x.com/BASYU4890/status/2115650376678686828"
   },
   {
-   "q": "ما هو الشيء الذي كلما زاد أمامك قلّ ما تراه؟",
-   "a": "الضباب (اللغز من X)",
-   "source": "اللغز من X @fakker_thawani",
-   "url": "https://x.com/fakker_thawani/status/2118742958396576217"
+   "q": "بنت تبكي في النهار وتضحك في الليل وش هي؟",
+   "a": "الزهرة (اللغز من X)",
+   "source": "اللغز من X @veiwnn",
+   "url": "https://x.com/veiwnn/status/2116255136100360394"
   },
   {
-   "q": "ما هو الشيء الذي نسكن عليه ويدور بنا ولا نشعر؟",
-   "a": "الأرض",
+   "q": "ما هو الشيء الذي تطلّين منه على الدنيا وهو من زجاج؟",
+   "a": "النافذة",
    "source": "مختارات نورة"
   }
  ],
@@ -54,10 +54,10 @@
  ],
  "fallback": true,
  "pool": {
-  "fresh_x": 7,
+  "fresh_x": 6,
   "fresh_web": 0,
-  "fresh_builtin": 30,
-  "seen_30d": 120,
+  "fresh_builtin": 29,
+  "seen_30d": 126,
   "blocked_other_page": 28
  }
 }
