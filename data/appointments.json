@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T13:02",
+ "generated": "2026-11-09T17:16",
  "items": [
   {
    "date": "2026-10-19",
@@ -200,6 +200,13 @@
   {
    "date": "2026-11-10",
    "start": "22:00",
+   "end": null,
+   "title": "موعد",
+   "icon": "calendar"
+  },
+  {
+   "date": "2026-11-20",
+   "start": "14:30",
    "end": null,
    "title": "موعد",
    "icon": "calendar"
