@@ -65,26 +65,6 @@
    "country": "السعودية"
   },
   {
-   "id": "401913951",
-   "date": "2026-12-01T17:00Z",
-   "tbd": false,
-   "state": "pre",
-   "detail": "12/1 - 12:00 PM EST",
-   "comp": "كأس خادم الحرمين الشريفين",
-   "comp_en": "Saudi King's Cup",
-   "round": "دور الـ16",
-   "home": "النصر",
-   "away": "الخلود",
-   "home_en": "Al Nassr",
-   "away_en": "Al Kholood",
-   "nassr_home": true,
-   "hs": null,
-   "as": null,
-   "venue": "Al-Awwal Park",
-   "city": "الرياض",
-   "country": "السعودية"
-  },
-  {
    "id": "401900441",
    "date": "2026-12-04T17:30Z",
    "tbd": false,
@@ -162,6 +142,26 @@
    "as": null,
    "venue": "Al Majma'a Sport City Stadium",
    "city": "المجمعة",
+   "country": "السعودية"
+  },
+  {
+   "id": "401900840",
+   "date": "2027-01-01T17:30Z",
+   "tbd": false,
+   "state": "pre",
+   "detail": "1/1 - 12:30 PM EST",
+   "comp": "دوري روشن السعودي",
+   "comp_en": "Saudi Pro League",
+   "round": null,
+   "home": "النصر",
+   "away": "الهلال",
+   "home_en": "Al Nassr",
+   "away_en": "Al Hilal",
+   "nassr_home": true,
+   "hs": null,
+   "as": null,
+   "venue": "Al-Awwal Park",
+   "city": "الرياض",
    "country": "السعودية"
   }
  ],
@@ -738,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-11-10 17:06"
+ "updated": "2026-11-10 18:07"
 }
