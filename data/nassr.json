@@ -145,18 +145,18 @@
    "country": "السعودية"
   },
   {
-   "id": "401900840",
-   "date": "2027-01-01T17:30Z",
+   "id": "401912622",
+   "date": "2026-12-27T16:00Z",
    "tbd": false,
    "state": "pre",
-   "detail": "1/1 - 12:30 PM EST",
-   "comp": "دوري روشن السعودي",
-   "comp_en": "Saudi Pro League",
-   "round": null,
+   "detail": "12/27 - 11:00 AM EST",
+   "comp": "دوري أبطال آسيا للنخبة",
+   "comp_en": "AFC Champions League Elite",
+   "round": "مرحلة الدوري",
    "home": "النصر",
-   "away": "الهلال",
+   "away": "الوصل",
    "home_en": "Al Nassr",
-   "away_en": "Al Hilal",
+   "away_en": "Al Wasl",
    "nassr_home": true,
    "hs": null,
    "as": null,
@@ -738,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-11-11 11:05"
+ "updated": "2026-11-11 12:03"
 }
