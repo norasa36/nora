@@ -2,28 +2,7 @@
  "ok": true,
  "source": "ESPN",
  "standing_en": "3rd in Saudi Pro League",
- "live": [
-  {
-   "id": "401900905",
-   "date": "2026-11-20T17:30Z",
-   "tbd": false,
-   "state": "in",
-   "detail": "90'+5'",
-   "comp": "دوري روشن السعودي",
-   "comp_en": "Saudi Pro League",
-   "round": null,
-   "home": "الأهلي",
-   "away": "النصر",
-   "home_en": "Al Ahli",
-   "away_en": "Al Nassr",
-   "nassr_home": false,
-   "hs": "3",
-   "as": "1",
-   "venue": "King Abdullah Sports City",
-   "city": "جدة",
-   "country": "السعودية"
-  }
- ],
+ "live": [],
  "next": [
   {
    "id": "401912584",
@@ -188,6 +167,27 @@
  ],
  "results": [
   {
+   "id": "401900905",
+   "date": "2026-11-20T17:30Z",
+   "tbd": false,
+   "state": "post",
+   "detail": "FT",
+   "comp": "دوري روشن السعودي",
+   "comp_en": "Saudi Pro League",
+   "round": null,
+   "home": "الأهلي",
+   "away": "النصر",
+   "home_en": "Al Ahli",
+   "away_en": "Al Nassr",
+   "nassr_home": false,
+   "hs": "3",
+   "as": "1",
+   "venue": "King Abdullah Sports City",
+   "city": "جدة",
+   "country": "السعودية",
+   "res": "L"
+  },
+  {
    "id": "401912631",
    "date": "2026-11-02T13:45Z",
    "tbd": false,
@@ -291,31 +291,10 @@
    "city": "الرياض",
    "country": "السعودية",
    "res": "W"
-  },
-  {
-   "id": "401900907",
-   "date": "2026-10-09T18:00Z",
-   "tbd": false,
-   "state": "post",
-   "detail": "FT",
-   "comp": "دوري روشن السعودي",
-   "comp_en": "Saudi Pro League",
-   "round": null,
-   "home": "النصر",
-   "away": "الدرعية",
-   "home_en": "Al Nassr",
-   "away_en": "Al Diriyah",
-   "nassr_home": true,
-   "hs": "3",
-   "as": "0",
-   "venue": "Al-Awwal Park",
-   "city": "الرياض",
-   "country": "السعودية",
-   "res": "W"
   }
  ],
  "form": [
-  "W",
+  "L",
   "W",
   "W",
   "W",
@@ -353,18 +332,30 @@
      "team": "النصر",
      "team_en": "Al Nassr",
      "rank": 3,
-     "p": "11",
+     "p": "12",
      "w": "9",
      "d": "1",
-     "l": "1",
-     "gd": "+17",
+     "l": "2",
+     "gd": "+15",
      "pts": "28",
      "me": true
     },
     {
+     "team": "الأهلي",
+     "team_en": "Al Ahli",
+     "rank": 4,
+     "p": "12",
+     "w": "8",
+     "d": "0",
+     "l": "4",
+     "gd": "+11",
+     "pts": "24",
+     "me": false
+    },
+    {
      "team": "الاتحاد",
      "team_en": "Al Ittihad",
-     "rank": 4,
+     "rank": 5,
      "p": "11",
      "w": "7",
      "d": "3",
@@ -376,25 +367,13 @@
     {
      "team": "نيوم",
      "team_en": "Neom SC",
-     "rank": 5,
+     "rank": 6,
      "p": "12",
      "w": "7",
      "d": "1",
      "l": "4",
      "gd": "+8",
      "pts": "22",
-     "me": false
-    },
-    {
-     "team": "الأهلي",
-     "team_en": "Al Ahli",
-     "rank": 6,
-     "p": "11",
-     "w": "7",
-     "d": "0",
-     "l": "4",
-     "gd": "+9",
-     "pts": "21",
      "me": false
     },
     {
@@ -759,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-11-20 22:25"
+ "updated": "2026-11-20 23:16"
 }
