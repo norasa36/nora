@@ -529,12 +529,12 @@
      "team": "العين",
      "team_en": "Al Ain",
      "rank": 1,
-     "p": "4",
+     "p": "5",
      "w": "4",
-     "d": "0",
+     "d": "1",
      "l": "0",
      "gd": "+11",
-     "pts": "12",
+     "pts": "13",
      "me": false
     },
     {
@@ -553,12 +553,12 @@
      "team": "Esteghlal FC",
      "team_en": "Esteghlal FC",
      "rank": 3,
-     "p": "4",
+     "p": "5",
      "w": "3",
-     "d": "0",
+     "d": "1",
      "l": "1",
      "gd": "+3",
-     "pts": "9",
+     "pts": "10",
      "me": false
     },
     {
@@ -589,18 +589,42 @@
      "team": "الأهلي",
      "team_en": "Al Ahli",
      "rank": 6,
-     "p": "4",
+     "p": "5",
      "w": "2",
      "d": "2",
-     "l": "0",
-     "gd": "+3",
+     "l": "1",
+     "gd": "+2",
      "pts": "8",
+     "me": false
+    },
+    {
+     "team": "الشمال",
+     "team_en": "Al-Shamal",
+     "rank": 7,
+     "p": "5",
+     "w": "2",
+     "d": "2",
+     "l": "1",
+     "gd": "+2",
+     "pts": "8",
+     "me": false
+    },
+    {
+     "team": "الوصل",
+     "team_en": "Al Wasl",
+     "rank": 8,
+     "p": "4",
+     "w": "2",
+     "d": "0",
+     "l": "2",
+     "gd": "+2",
+     "pts": "6",
      "me": false
     },
     {
      "team": "النصر",
      "team_en": "Al Nassr",
-     "rank": 7,
+     "rank": 9,
      "p": "3",
      "w": "2",
      "d": "0",
@@ -610,21 +634,9 @@
      "me": true
     },
     {
-     "team": "الشمال",
-     "team_en": "Al-Shamal",
-     "rank": 8,
-     "p": "4",
-     "w": "1",
-     "d": "2",
-     "l": "1",
-     "gd": "+1",
-     "pts": "5",
-     "me": false
-    },
-    {
      "team": "نفتشي فرغانة",
      "team_en": "Neftchi Fergana",
-     "rank": 9,
+     "rank": 10,
      "p": "5",
      "w": "1",
      "d": "2",
@@ -636,25 +648,13 @@
     {
      "team": "الاتحاد",
      "team_en": "Al Ittihad",
-     "rank": 10,
+     "rank": 11,
      "p": "4",
      "w": "1",
      "d": "1",
      "l": "2",
      "gd": "-3",
      "pts": "4",
-     "me": false
-    },
-    {
-     "team": "الوصل",
-     "team_en": "Al Wasl",
-     "rank": 11,
-     "p": "3",
-     "w": "1",
-     "d": "0",
-     "l": "2",
-     "gd": "-2",
-     "pts": "3",
      "me": false
     },
     {
@@ -670,21 +670,9 @@
      "me": false
     },
     {
-     "team": "Tractor",
-     "team_en": "Tractor",
-     "rank": 13,
-     "p": "4",
-     "w": "0",
-     "d": "2",
-     "l": "2",
-     "gd": "-2",
-     "pts": "2",
-     "me": false
-    },
-    {
      "team": "باختاكور",
      "team_en": "Pakhtakor",
-     "rank": 14,
+     "rank": 13,
      "p": "4",
      "w": "0",
      "d": "2",
@@ -696,12 +684,24 @@
     {
      "team": "السد",
      "team_en": "Al Sadd",
-     "rank": 15,
+     "rank": 14,
      "p": "4",
      "w": "0",
      "d": "2",
      "l": "2",
      "gd": "-5",
+     "pts": "2",
+     "me": false
+    },
+    {
+     "team": "Tractor",
+     "team_en": "Tractor",
+     "rank": 15,
+     "p": "5",
+     "w": "0",
+     "d": "2",
+     "l": "3",
+     "gd": "-6",
      "pts": "2",
      "me": false
     },
@@ -738,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-11-23 20:17"
+ "updated": "2026-11-23 21:15"
 }
