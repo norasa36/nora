@@ -2,28 +2,7 @@
  "ok": true,
  "source": "ESPN",
  "standing_en": "3rd in Saudi Pro League",
- "live": [
-  {
-   "id": "401912584",
-   "date": "2026-11-24T18:15Z",
-   "tbd": false,
-   "state": "in",
-   "detail": "47'",
-   "comp": "دوري أبطال آسيا للنخبة",
-   "comp_en": "AFC Champions League Elite",
-   "round": "مرحلة الدوري",
-   "home": "النصر",
-   "away": "السد",
-   "home_en": "Al Nassr",
-   "away_en": "Al Sadd",
-   "nassr_home": true,
-   "hs": "1",
-   "as": "1",
-   "venue": "Al-Awwal Park",
-   "city": "الرياض",
-   "country": "السعودية"
-  }
- ],
+ "live": [],
  "next": [
   {
    "id": "401900442",
@@ -188,6 +167,27 @@
  ],
  "results": [
   {
+   "id": "401912584",
+   "date": "2026-11-24T18:15Z",
+   "tbd": false,
+   "state": "post",
+   "detail": "FT",
+   "comp": "دوري أبطال آسيا للنخبة",
+   "comp_en": "AFC Champions League Elite",
+   "round": "مرحلة الدوري",
+   "home": "النصر",
+   "away": "السد",
+   "home_en": "Al Nassr",
+   "away_en": "Al Sadd",
+   "nassr_home": true,
+   "hs": "2",
+   "as": "1",
+   "venue": "Al-Awwal Park",
+   "city": "الرياض",
+   "country": "السعودية",
+   "res": "W"
+  },
+  {
    "id": "401900905",
    "date": "2026-11-20T17:30Z",
    "tbd": false,
@@ -291,32 +291,11 @@
    "city": "الرياض",
    "country": "السعودية",
    "res": "W"
-  },
-  {
-   "id": "401912627",
-   "date": "2026-10-12T19:15Z",
-   "tbd": false,
-   "state": "post",
-   "detail": "FT",
-   "comp": "دوري أبطال آسيا للنخبة",
-   "comp_en": "AFC Champions League Elite",
-   "round": "مرحلة الدوري",
-   "home": "النصر",
-   "away": "نفتشي فرغانة",
-   "home_en": "Al Nassr",
-   "away_en": "Neftchi Fergana",
-   "nassr_home": true,
-   "hs": "3",
-   "as": "1",
-   "venue": "Al-Awwal Park",
-   "city": "الرياض",
-   "country": "السعودية",
-   "res": "W"
   }
  ],
  "form": [
-  "L",
   "W",
+  "L",
   "W",
   "W",
   "W"
@@ -595,9 +574,21 @@
      "me": false
     },
     {
+     "team": "النصر",
+     "team_en": "Al Nassr",
+     "rank": 5,
+     "p": "4",
+     "w": "3",
+     "d": "0",
+     "l": "1",
+     "gd": "+3",
+     "pts": "9",
+     "me": true
+    },
+    {
      "team": "شباب الأهلي",
      "team_en": "Shabab Al Ahli",
-     "rank": 5,
+     "rank": 6,
      "p": "5",
      "w": "3",
      "d": "0",
@@ -609,7 +600,7 @@
     {
      "team": "الأهلي",
      "team_en": "Al Ahli",
-     "rank": 6,
+     "rank": 7,
      "p": "5",
      "w": "2",
      "d": "2",
@@ -621,7 +612,7 @@
     {
      "team": "الشمال",
      "team_en": "Al-Shamal",
-     "rank": 7,
+     "rank": 8,
      "p": "5",
      "w": "2",
      "d": "2",
@@ -633,7 +624,7 @@
     {
      "team": "الاتحاد",
      "team_en": "Al Ittihad",
-     "rank": 8,
+     "rank": 9,
      "p": "5",
      "w": "2",
      "d": "1",
@@ -645,7 +636,7 @@
     {
      "team": "الوصل",
      "team_en": "Al Wasl",
-     "rank": 9,
+     "rank": 10,
      "p": "4",
      "w": "2",
      "d": "0",
@@ -653,18 +644,6 @@
      "gd": "+2",
      "pts": "6",
      "me": false
-    },
-    {
-     "team": "النصر",
-     "team_en": "Al Nassr",
-     "rank": 10,
-     "p": "3",
-     "w": "2",
-     "d": "0",
-     "l": "1",
-     "gd": "+2",
-     "pts": "6",
-     "me": true
     },
     {
      "team": "Al-Quwa Al-Jawiya",
@@ -691,20 +670,20 @@
      "me": false
     },
     {
-     "team": "السد",
-     "team_en": "Al Sadd",
+     "team": "Tractor",
+     "team_en": "Tractor",
      "rank": 13,
-     "p": "4",
+     "p": "5",
      "w": "0",
      "d": "2",
-     "l": "2",
-     "gd": "-5",
+     "l": "3",
+     "gd": "-6",
      "pts": "2",
      "me": false
     },
     {
-     "team": "Tractor",
-     "team_en": "Tractor",
+     "team": "السد",
+     "team_en": "Al Sadd",
      "rank": 14,
      "p": "5",
      "w": "0",
@@ -759,5 +738,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-11-24 22:23"
+ "updated": "2026-11-24 23:20"
 }
