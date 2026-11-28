@@ -2,14 +2,13 @@
  "ok": true,
  "source": "ESPN",
  "standing_en": "3rd in Saudi Pro League",
- "live": [],
- "next": [
+ "live": [
   {
    "id": "401900442",
    "date": "2026-11-28T12:15Z",
    "tbd": false,
-   "state": "pre",
-   "detail": "11/28 - 7:15 AM EST",
+   "state": "in",
+   "detail": "8'",
    "comp": "دوري روشن السعودي",
    "comp_en": "Saudi Pro League",
    "round": null,
@@ -18,12 +17,14 @@
    "home_en": "Al Hazem",
    "away_en": "Al Nassr",
    "nassr_home": false,
-   "hs": null,
-   "as": null,
+   "hs": "0",
+   "as": "0",
    "venue": "King Abdullah Sport City Stadium",
    "city": "Buraidah",
    "country": "السعودية"
-  },
+  }
+ ],
+ "next": [
   {
    "id": "401900441",
    "date": "2026-12-04T17:30Z",
@@ -162,6 +163,26 @@
    "as": null,
    "venue": "Al Fateh Club Stadium",
    "city": "Al-Hofuf",
+   "country": "السعودية"
+  },
+  {
+   "id": "401913951",
+   "date": "2027-01-11T17:00Z",
+   "tbd": false,
+   "state": "pre",
+   "detail": "1/11 - 12:00 PM EST",
+   "comp": "كأس خادم الحرمين الشريفين",
+   "comp_en": "Saudi King's Cup",
+   "round": "دور الـ16",
+   "home": "النصر",
+   "away": "الخلود",
+   "home_en": "Al Nassr",
+   "away_en": "Al Kholood",
+   "nassr_home": true,
+   "hs": null,
+   "as": null,
+   "venue": "Al-Awwal Park",
+   "city": "الرياض",
    "country": "السعودية"
   }
  ],
@@ -738,5 +759,5 @@
    "no": "79"
   }
  ],
- "updated": "2026-11-28 14:19"
+ "updated": "2026-11-28 15:23"
 }
